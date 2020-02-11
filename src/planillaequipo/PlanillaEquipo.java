@@ -16,6 +16,9 @@ public class PlanillaEquipo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Pila pila = new Pila();
+        pila.Apilar();
+        pila.Desapilar();
     }
     
 }
