@@ -17,8 +17,15 @@ public class PlanillaEquipo {
     public static void main(String[] args) {
         // TODO code application logic here
         Pila pila = new Pila();
+        Cola cola = new Cola();
+        
+        System.out.println("********** PILA **********\n");
         pila.Apilar();
         pila.Desapilar();
+        
+        System.out.println("\n\n********** COLA **********\n");
+        cola.Encolar();
+        cola.Desencolar();
     }
     
 }
